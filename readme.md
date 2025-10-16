@@ -4,6 +4,8 @@
 A modular and extensible **Document Editor** written in **Rust**, demonstrating core OOP design patterns (traits, polymorphism, caching, and persistence abstraction).  
 It supports adding **text**, **images**, **newlines**, and **tab spaces** to a document, rendering it, and saving it to various storage backends such as **file storage** or a simulated **database**.
 
+![UML Diagram](/uml2.svg)
+
 ---
 
 ## 📖 Features
@@ -64,15 +66,7 @@ This will:
 -   Save it to `document.txt` in your project directory.
     
 
-----------
 
-## 🗂️ UML Diagram
-
-Below is a UML class diagram showing the structure and relationships between components:
-
-![UML Diagram](/uml2.svg)
-
-----------
 
 ## 🧩 Possible Extensions
 
@@ -93,5 +87,6 @@ Below is a UML class diagram showing the structure and relationships between com
     
 -   **Standard Library (`std::fs`, `std::io`, `std::path`)**
     
+
 
 ----------
